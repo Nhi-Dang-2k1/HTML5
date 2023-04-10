@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+
+    <!-- <link rel="icon" href="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/07/logo-alt.png" type="image/x-icon" /> -->
+    <link rel="icon" href="assets/img/logo-n.png"  />
+
+    <!-- Slide -->
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/js.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+
+            <div class="header__contact hide-on-mobile-tablet">
+                <ul class="header__contact-list">
+                    <li class="header__conatct-item">
+                        <a href="" class="header__contact-item-link">
+                            <i class="header__contact-icon ti-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="header__conatct-item">
+                        <a href="" class="header__contact-item-link">
+                            <i class="header__contact-icon ti-twitter-alt"></i>
+                        </a>
+                    </li>
+                    <li class="header__conatct-item">
+                        <a href="" class="header__contact-item-link">
+                            <i class="header__contact-icon ti-instagram"></i>
+                        </a>
+                    </li>
+
+                    <li class="header__conatct-item">
+                        <a href="" class="header__contact-item-link">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li class="header__conatct-item">
+                        <a href="" class="header__contact-item-link">
+                            Wishlist
+                        </a>
+                    </li>
+
+                    <li class="header__conatct-item">
+                        <a href="" class="header__contact-item-link">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+                <ul class="header__contact-list">
+                    <li class="header__conatct-item header__conatct-language">
+                        <a href="" class="header__contact-item-language ">
+                            English
+                            <i class="header__contact-icon-arrow ti-angle-down"></i>
+                        </a>
+                        <ul class="header__contact-subnav">
+                            <li class="header__contact-subnav-item">
+                                <a href="#" class="header__contact-subnav-item-link">Français</a>
+                            </li>
+                            <li class="header__contact-subnav-item">
+                                <a href="#" class="header__contact-subnav-item-link">Vietnamese</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            
+            <input type="checkbox" id="header__menu-input" class="nav-input">
+            <input type="checkbox" id="header__menu-bag" class="cart-input">
+            <input type="checkbox" id="header__menu-search" class="search-input">
+            <input type="checkbox" id="menu__mobile--tablet-check" class="menu__mobile--tablet-input">
+
+            <label for="header__menu-search" class="header__menu-bag-overlay">
+            </label>
+            <label for="header__menu-bag" class="header__menu-bag-overlay">
+            </label>
+            <label for="menu__mobile--tablet-check" class="header__menu-bag-overlay">
+            </label>
+
+            <div class="header__menu-sreach">
+                <div class="header__menu-sreach-close">
+                    <label for="header__menu-search" href="#" class="header__menu-sreach-close-link">
+                        <i class="nav__bang-sreach-close-icon ti-close"></i>
+                    </label>
+                </div>
+
+                <div class="header__menu-sreach-nav">
+                    <div class="header__menu-sreach-bar-all">
+                        <div class="header__menu-sreach-bar">
+                            <i class="header__menu-sreach-icon ti-search"></i>
+                            <input type="text" class="header__menu-sreach-input" placeholder="Search product...">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="menu__mobile--tablet l-0">
+                <div class="menu__mobile--tablet-header">
+                    <label for="menu__mobile--tablet-check" href="#" class="mobile--tablet__link-close">
+                        <i class="mobile--tablet__close-icon ti-close"></i>
+                    </label>
+                </div>
+                <div class="menu__mobile--tablet-body">
+
+                    <div class="menu__mobile--tablet-body-top">
+                        <div class="menu__mobile--tablet-sreach">
+                            <i class="menu__mobile--tablet-sreach-icon ti-search"></i>
+                            <input type="text" class="menu__mobile--tablet-sreach-input" placeholder="Sreach products...">
+                        </div>
+    
+                        <div class="menu__mobile--tablet-nav">
+                            <a href="index.html" class="menu__mobile--tablet-content">MAIN</a>
+                            <i class="menu__mobile--tablet-main-icon ti-angle-right"></i>
+                        </div>
+                        <div class="menu__mobile--tablet-nav">
+                            <a href="" class="menu__mobile--tablet-content">SHOP</a>
+                            <i class="menu__mobile--tablet-main-icon ti-angle-right"></i>
+                        </div>
+                        <div class="menu__mobile--tablet-nav">
+                            <a href="products.html" class="menu__mobile--tablet-content">PRODUCT</a>
+                            <i class="menu__mobile--tablet-main-icon ti-angle-right"></i>
+                        </div>
+                        <div class="menu__mobile--tablet-nav">
+                            <a href="login.html" class="menu__mobile--tablet-content">MY ACCOUNT</a>
+                            <i class="menu__mobile--tablet-main-icon ti-angle-right"></i>
+                        </div>
+                        <div class="menu__mobile--tablet-nav">
+                            <a href="cart.html" class="menu__mobile--tablet-content">CART</a>
+                            <i class="menu__mobile--tablet-main-icon ti-angle-right"></i>
+                        </div>
+                    </div>
+                    
+
+                    <!--  -->
+                </div>
+            </div>
+
+            
+
+            <div id="header__navbar-scroll" class="header__navbar hide-on-mobile-tablet">
+                <div class="header__navbar-left">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">
+                            <label for="header__menu-input" class="header__navbar-item-link">
+                                <i class="header__navbar-icon ti-menu"></i>
+                            </label>
+                        </li>
+    
+                        <li  onmouseover="mouseOverMain()" onmouseout="mouseOutMain()" class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link header__navbar-item-link-underline">
+                                Main
+                            </a>
+                        </li>
+
+                        <li onmouseover="mouseOverShop()" onmouseout="mouseOutShop()"  class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link header__navbar-item-link-underline">
+                                Shop
+                            </a>
+                        </li>
+
+                        <li onmouseover="mouseOverProduct()" onmouseout="mouseOutProduct()" class="header__navbar-item">
+                            <a href="products.html" class="header__navbar-item-link header__navbar-item-link-underline">
+                                Product
+                            </a>
+                        </li>
+
+                        <li onmouseover="mouseOverPages()" onmouseout="mouseOutPages()" class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link header__navbar-item-link-underline">
+                                Pages
+                            </a>
+                        </li>
+
+                        <li onmouseover="mouseOverJournal()" onmouseout="mouseOutJournal()"  class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link header__navbar-item-link-underline">
+                                Journal
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                
+                
+                <div class="header__navbar-right">
+                    <ul class="header__navbar-list">
+
+                        <li class="header__navbar-item">
+                            <a href="login.html" class="header__navbar-item-link header__navbar-item-link-underline">
+                                My Account
+                            </a>
+                        </li>
+
+                        <li class="header__navbar-item">
+                            <label for="header__menu-search" href="#" class="header__navbar-item-link">
+                                <i class="header__navbar-icon ti-search"></i>
+                            </label>
+                        </li>
+    
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon ti-heart"></i>
+                            </a>
+                        </li>
+
+                        <li class="header__navbar-item">
+                            <label for="header__menu-bag" href="#" class="header__navbar-item-link">
+                                <i class="header__navbar-icon ti-bag"></i>
+                            </label>
+                            <!-- <span class="header__navbar-item-notice">2</span> -->
+                        </li>
+                    </ul>
+                </div>
+                
+            </div> 
+
+            <!-- NavBar Tablet and Mobile -->
+            <div class="header-mobile-tablet">
+                <label for="menu__mobile--tablet-check" href="#" class="header-mobile-tablet__icon-link">
+                    <i class="ti-menu"></i>
+                </label>
+                
+                <label for="header__menu-bag" href="" class="header-mobile-tablet__icon-link">
+                    <i class="ti-bag"></i>
+                </label>
+            </div>
+
+
+            <!-- tes -->
+
+            <div class="header__menu-overlay hide-on-mobile-tablet">
+                <div class="grid wide">
+                    <label for="header__menu-input" class="header__menu--close-link">
+                        <i class="header__menu--close-icon ti-close"></i>
+                    </label>
+                    <div class="row">
+                        <div class="grid__column-menu-left">
+                            <ul class="header__menu--list">
+                                <li class="header__menu--list-item">
+                                    <div class="header__menu--list-block">
+                                        <a href="index.html" class="header__menu--list-item-link">
+                                            MAIN
+                                        </a>
+                                        <i class="header__menu--list-icon ti-angle-right"></i>
+                                    </div>
+                                </li>
+                                <li class="header__menu--list-item">
+                                    <div class="header__menu--list-block">
+                                        <a href="" class="header__menu--list-item-link">
+                                            SHOP
+                                        </a>
+                                        <i class="header__menu--list-icon ti-angle-right"></i>
+                                    </div>
+                                </li>
+                                <li class="header__menu--list-item">
+                                    <div class="header__menu--list-block">
+                                        <a href="products.html" class="header__menu--list-item-link">
+                                            PRODUCT
+                                        </a>
+                                        <i class="header__menu--list-icon ti-angle-right"></i>
+                                    </div>
+                                </li>
+                                <li class="header__menu--list-item">
+                                    <div class="header__menu--list-block">
+                                        <a href="login.html" class="header__menu--list-item-link">
+                                            My Account
+                                        </a>
+                                        <i class="header__menu--list-icon ti-angle-right"></i>
+                                    </div>
+                                </li>
+                                <li class="header__menu--list-item">
+                                    <div class="header__menu--list-block">
+                                        <a href="cart.html" class="header__menu--list-item-link">
+                                            CART
+                                        </a>
+                                        <i class="header__menu--list-icon ti-angle-right"></i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="grid__column-menu-right">
+                            <h3 class="grid__column-menu-right-category">CATALOG</h3>
+                            <ul class="grid__column-menu-right-list">
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Style 1
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Style 2
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Style 3
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Style 4
+                                    </a>
+                                </li>
+                            </ul>
+                            <h3 class="grid__column-menu-right-category">FILTERS</h3>
+
+                            <ul class="grid__column-menu-right-list">
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Top
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Sidebar
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Slide Out
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="grid__column-menu-right" >
+                            <h3 class="grid__column-menu-right-category">CATALOG OPTIONS</h3>
+                            <ul class="grid__column-menu-right-list">
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Darker Background
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Width – Regular
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Animation – Zoom Only
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Load More – Scroll
+                                    </a>
+                                </li>
+                            </ul>
+                            <h3 class="grid__column-menu-right-category">SHOP PAGES</h3>
+
+                            <ul class="grid__column-menu-right-list">
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        My account – 1 Col
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Wishlist
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="grid__column-menu-right">
+                            <h3 class="grid__column-menu-right-category">CART</h3>
+                            <ul class="grid__column-menu-right-list">
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Shopping Cart
+                                    </a>
+                                </li>
+                            </ul>
+                            <h3 class="grid__column-menu-right-category">MINICART</h3>
+
+                            <ul class="grid__column-menu-right-list">
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Top
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Side
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Dark
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide -->
+            <div class="sajid-1 owl-carousel owl-theme header__container">
+                <div class="">
+                    <img src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2020/02/monigote.jpg" alt="" class="header__slider-img" >
+                    <div class="header__container-ads">
+                        <!-- <span class="header__container-ads-sale">Spring/Summer '19</span> -->
+                        <h1 class="header__container-ads-name-product">The Weekent  <br> Getaway</h1>
+                        <p class="header__container-ads-shop-now">Browse styles</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+
+        </div>
+
+        <div class="app__container">
+            <div class="app__container-product">
+                <div class="grid wide">
+                    <div class="row ">
+                        <div class="col l-4 m-12 c-12 ">
+                            <div class="product-item__wrap">
+                                <div class="container__product-item" style="background-image: url(./assets/img/product1.jpg);">
+                                    <h2 class="container__product-title-content">Button <br> Up <br> Shirts</h2>
+                                    <!-- <a href="#" class="container__product-content-button">Buy Now</a> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-12 c-12">
+                            <div class="product-item__wrap">
+                                <div class="container__product-item" style="background-image: url(./assets/img/product2.jpg);">
+                                    <h2 class="container__product-title-content">Choose <br> your <br> price</h2>
+                                    <!-- <a href="#" class="container__product-content-button">Choose Yours</a> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-12 c-12">
+                            <div class="product-item__wrap">
+                                <div class="container__product-item-color container__product-item">
+                                    <h2 class="container__product-title-content">Clearance Sale</h2>
+                                    <p class="container__product-content-sale">Up to 70% Off & Free Shipping</p>
+                                    <!-- <a href="#" class="container__product-content-button">Browse sales</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="app__container-selling">
+                <div class="grid wide">
+                    <h4 class="app__container-title">
+                        Best Selling
+                    </h4>
+                    <p class="app__container-introduce">
+                        Bushwick blue bottle photo booth copper mug marfa craft beer pour-over swag <br> subway tile organic cloud bread.
+                    </p>
+                    <div class="row ">
+                        <div class="col l-4 m-4 c-12">
+                            <div class="container__selling-item">
+                                <img src="./assets/img/selling1a.jpg" alt="" class="container__selling-img1">
+                                <ul class="container__selling-interactive-list">
+                                    <li class="container__selling-interactive-item">
+                                        <a href="" class="container__selling-interactive-link">
+                                            <i class="container__selling-interactive-icon ti-heart  "></i>
+                                        </a>
+                                        <!-- <span class="selling-interactive-item-content">Add to Wishlis</span> -->
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                            <a href="#" class="container__selling-name">Cashmere Tank + Bag</a>
+                            <p class="container__selling-price">$39.00 – $98.00</p>
+                        </div>
+
+                        <div class="col l-4 m-4 c-12">
+                            <div class="container__selling-item">
+                                <img src="./assets/img/selling2a.jpg" alt="" class="container__selling-img1">
+                                <ul class="container__selling-interactive-list">
+                                    <li class="container__selling-interactive-item">
+                                        <a href="" class="container__selling-interactive-link">
+                                            <i class="container__selling-interactive-icon ti-heart  "></i>
+                                        </a>
+                                        <!-- <span class="selling-interactive-item-content">Add to Wishlis</span> -->
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="container__selling-name">Micro Form Bag</a>
+                            <p class="container__selling-price">$98.00</p>
+                        </div>
+
+                        <div class="col l-4 m-4 c-12 container__selling-product-item">
+                            <div class="container__selling-item">
+                                <img src="./assets/img/selling3a.jpg" alt="" class="container__selling-img1">
+                                <!-- <img src="./assets/img/selling3b.jpg" alt="" class="container__selling-img2">
+                                <p class="product__new">New</p> -->
+                                <ul class="container__selling-interactive-list">
+                                    <li class="container__selling-interactive-item">
+                                        <a href="" class="container__selling-interactive-link">
+                                            <i class="container__selling-interactive-icon ti-heart  "></i>
+                                        </a>
+                                        <!-- <span class="selling-interactive-item-content">Add to Wishlis</span> -->
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            <a href="#" class="container__selling-name">Cashmere Tank</a>
+                            <p class="container__selling-price">$39.00 – $98.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            
+
+            <div class="container__visit">
+                <div class="grid wide">
+                    <h4 class="app__container-title">
+                        Visit Us
+                    </h4>
+                    <p class="app__container-introduce">
+                        Stop by our stores to learn the stories behind our products, get a personal styling session, or shop the latest in person. See our store locations.
+                    </p>
+                    <img src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2020/01/boutique.jpg" alt="" class="container__visit-img">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer__info">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-3 m-6 c-5 c-o-1">
+                            <h6 class="footer__info-title">COMPANY</h6>
+                            <ul class="footer__info--list">
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Contact
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Store Locations
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Careers
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col l-3 m-6 c-5">
+                            <h6 class="footer__info-title">HELP</h6>
+                            <ul class="footer__info--list">
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Order Tracking
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        FAQ’s
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Terms & Conditions
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col l-3 m-6 c-5 c-o-1">
+                            <h6 class="footer__info-title">STORE</h6>
+                            <ul class="footer__info--list">
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Women
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Men
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Speakers
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col l-3 m-6 c-5">
+                            <h6 class="footer__info-title">FOLLOW US</h6>
+                            <p href="" class="footer__info--list-item-link">
+                                And get Free Shipping on all your orders!
+                            </p>
+                            <ul class="footer__info--list-icon">
+                                <li class="footer__info--list-icon-item">
+                                    <a href="" class="footer__info-link-icon">
+                                        <i class="footer__info-icon ti-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-icon-item">
+                                    <a href="" class="footer__info-link-icon">
+                                        <i class="footer__info-icon ti-twitter-alt"></i>
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-icon-item">
+                                    <a href="" class="footer__info-link-icon">
+                                        <i class="footer__info-icon ti-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-icon-item">
+                                    <a href="" class="footer__info-link-icon">
+                                        <i class="footer__info-icon ti-pinterest-alt"></i>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                            
+                        </div>
+
+                    </div>
+
+
+                    
+                </div>
+            </div>
+
+            <div class="footer__policy">
+                <div class="grid wide">
+                    <div class="row footer__policy-content">
+                            
+        
+                            <div class="footer__policy-right">
+                                <p class="footer__policy-right-copyright">
+                                    ©2023 Fashion - Nhi Đặng
+                                </p>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+        <div id="backtop">
+            <i class="backtop__icon ti-arrow-up"></i>
+        </div>
+    </div> 
+</body>
+</html>
